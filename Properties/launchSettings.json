@@ -22,6 +22,15 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    },
+    "Production": {
+      "commandName": "Project",
+      "windowsAuthentication": false,
+      "anonymousAuthentication": true,
+      "applicationUrl": "http://10.0.0.3:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
     }
   }
 }
